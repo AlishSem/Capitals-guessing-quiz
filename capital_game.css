@@ -1,0 +1,45 @@
+body {
+    background-color: #eee;
+    font-family: Roboto;
+    text-align: center;
+
+}
+h1 {
+    font-family: Tangerine;
+}
+/*your code here*/
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+.lol {
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+.lolz {
+    border-bottom: 2px solid black;
+
+}
+
+th {
+    font-weight: normal;
+}
+
+
+th, tr {
+    padding: 4px;
+    text-align: left;
+    border-bottom: 1px solid black;
+} 
+
+.cells {
+    padding: 4px;
+}
+
+#variants {
+    border-bottom: none;
+}
+

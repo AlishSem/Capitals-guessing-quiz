@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Alisher Sembekov 20180877</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
+    <link href="./capital_game.css" rel="stylesheet" />
+    <link href="capital_game.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>World Capital Quiz Game</h1>
+    <br>  
+    <h3>Do you know the capital of this country?</h3>
+
+    <table id = "tablee" >
+      <tr id="variants">
+        <td>
+          <select id="variantss">
+            <option value="all" selected> All</option>
+            <option value="right">Right</option>
+            <option value="wrong">Wrong</option>
+          </select>
+        </td>
+      </tr>
+      <tr class = "lolz"> 
+        <th style="font-weight: bold;">COUNTRY</th>
+        <th style="font-weight: bold;">CAPITAL CITY</th>
+        <th style="font-weight: bold;">ANSWER</th>
+      </tr>
+      <tr class = "lol">
+        <td id = "pr2__country"></td>
+        <th>
+          <input id='pr2__capital'> </input>
+        </th>
+        <th>
+          <button id="pr2__button">Check Answer</button>
+        </th>
+      </tr>
+      <tr id = "permanent">
+        <td></td>
+        <td> The List is Empty</td>
+        <td></td>
+      </tr>
+    </table>
+      <script src="jquery/js/jquery-1.9.0.min.js"></script>
+      <script src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
+      <script src="./country_capital_pairs.js"></script>
+      <script src="./capital_game.js"></script>
+  </body>
+</html>
